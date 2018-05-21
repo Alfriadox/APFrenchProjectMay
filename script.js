@@ -1,7 +1,6 @@
 function do_update() {
   console.log("update");
   do_full();
-  do_school();
   setInterval(do_update, 150);
 }
 
